@@ -1,12 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero-info">
+            <h2>Hi There, I'm <span> Sophia <br>Sanggacala</span></h2>
+            <h4>I am into <span>Web Developer</span> / <span> Graphic Designer</span> </h4>
+            <div>
+                <button class="btn btn-secondary">Hire Me</button>
+                </div>
+        </div>
+        <div class="akong-image">
+            <img src="mayang.png">
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="heading">About Me</h1>
+        <div class="about">
+            <img src="mayang1234.png" alt="strip">
+            <div class="name">
+                <p>Hello,I'm Sophia May Sanggacala, 23 yrs old.
+                    From Cebu, Phillipines <br> And I'm Digital Content Creator and Graphics Designer. <br>
+                    Also I have an experience in Editing pictures for tarpulin <br> and
+                     Encoding documents at Penta Graphics, <br> Basak, Cebu way back 2018 for my Emmersion
+                     <br> and a sales crew in Oxygen brand for almost 2yrs in <br> Gaisano Grand Fiesta Mall, Tabunok Talisay City, Cebu  </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="Projects">
+        <h1>Projects</h1>
+            <img src="mariland12.jpg" class="girl">  
+            <img src="MCIA1.jpg" class="BI">
+            <img src="mariland1.jpg" class="lalaki">
+            <img src="123123.jpg" class="labor">
+        <div class="project">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+       <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+        <div class="social" id="contact">
+            <span><img src="https://img.icons8.com/?size=512&id=108806&format=png" alt="linkedin icon"><p>
+                <a href="">Linkedin.com</a>
+            </p></span>
+            <span><img src="https://img.icons8.com/?size=512&id=118562&format=png" alt="facebook icon"><p>
+                <a href="https://www.facebook.com/kayla.owakan">facebook</a>
+            </p></span>
+            <span><img src="https://img.icons8.com/?size=512&id=108806&format=png" alt="gmail icon"><p>
+                <a href="mailto:jamaicaowakan21@gmail.com">jamaicaowakan21@gmail.com</a>
+            </p></span>
+            <span><img src="https://img.icons8.com/?size=512&id=64142&format=png" alt="instagram icon"><p>
+                <a href="">Instagram.com</a>
+            </p></span>
+        </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
