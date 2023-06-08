@@ -47,7 +47,7 @@ ul {
 }
 
 li a:hover{
-    background-color: #76b2e6;
+    background-color: #494949;
 }
 li {
     display: inline-block;
@@ -74,6 +74,11 @@ h2 {
 .girl{
     padding: 20px;
     width: 25vw;
+}
+.lami{
+    padding: 20px;
+    width: 22%;
+    height: 20%;
 }
 
 /* Style the contact form */
@@ -108,10 +113,10 @@ input[type="submit"]:hover {
 
 /* Style the footer */
 footer{
-    background-color: #524c4c;
+    background-color: #07a381;
 }
 .social > span{
-    height: 2em;
+    height: 2rem;
 }
 .social{
     justify-content: space-around;
@@ -120,9 +125,11 @@ footer{
     margin: auto;
     border-top: 1px solid #C88EA7;
 }
-.social > span{
-    display: flex;
-    align-items: center;
+.social img{
+  width: 30px;
+}
+.p{
+    text-align: center;
 }
 
 .shades{
@@ -166,7 +173,7 @@ img {
 #about{
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 500px;
 }
 #about h1{
     color: black;
@@ -178,9 +185,9 @@ img {
     justify-content: center;
 }
 .about img{
-    width: 30vw;
-    height: 30vw;
-    padding-top: -2px;
+    width: 20vw;
+    height: 20vw;
+    padding-top: 10px;
     clip-path: circle()
 
 }
