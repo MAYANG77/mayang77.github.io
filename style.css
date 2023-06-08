@@ -213,3 +213,65 @@ img {
     align-items: center;
     height: 100vh;
   }
+  
+  @media screen and (max-width: 760px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .girl {
+        width: 100%;
+    }
+
+    .lami {
+        width: 100%;
+        height: auto;
+    }
+
+    form {
+        margin-top: 30px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-section .akong-image img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    #about h1 {
+        margin: 30px;
+    }
+
+    .about img {
+        width: 70%;
+        height: auto;
+        padding-top: 0;
+    }
+
+    .btn-container {
+        height: auto;
+    }
+}
